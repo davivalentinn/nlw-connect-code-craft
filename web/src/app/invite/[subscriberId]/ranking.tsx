@@ -6,7 +6,9 @@ import gold from '../../../assets/medal-gold.svg'
 import silver from '../../../assets/medal-silver.svg'
 
 export async function Ranking() {
-  const { ranking } = await getRanking()
+  const response = await getRanking()
+  const ranking = response?.ranking ?? []
+
 
   return (
     <div className="w-full m-w-[440px] space-y-5">
