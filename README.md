@@ -1,36 +1,51 @@
-## 🚀 Sobre o projeto
+# 🌐 Projeto Web Full Stack
 
-Este projeto foi desenvolvido durante a **NLW (Next Level Week)**, na trilha focada em **React**.  
-O objetivo foi aprofundar conhecimentos no ecossistema React e aplicar boas práticas no desenvolvimento de uma aplicação **moderna, performática e bem estruturada**.
+Este projeto foi desenvolvido com foco na aplicação prática de tecnologias modernas de **front-end** e **back-end**, envolvendo a construção de uma interface robusta e a integração com uma **API REST** bem estruturada.
+
+## 🖥️ Front-end
+
+- **React** com **TypeScript**
+- **Next.js** utilizando **App Router**
+- **Server Components** e **Client Components**
+- Padrão de **composição de componentes**
+- Estilização com **Tailwind CSS**
+- Formulários com **React Hook Form**
+- Validação de dados com **Zod**
+- Cliente HTTP tipado gerado com **Orval**
+- Padronização de código e toolchain configurada com **Biome**
+
+## ⚙️ Back-end / API
+
+- **Node.js**
+- **TypeScript**
+- **API REST**
+- Estrutura modular organizada por **rotas** e **funções**
+- Camada de acesso a dados utilizando **Drizzle ORM**
+- Migrations e schemas tipados
+- Integração com **Redis** para cache e controle de dados temporários
+- Gerenciamento de variáveis de ambiente com `.env`
+- Servidor centralizado em `server.ts`
+
+## 🗄️ Banco de Dados
+
+- Banco de dados relacional
+- Migrations gerenciadas com **Drizzle**
+- Versionamento do schema via arquivos SQL
+
+## 🐳 Infraestrutura
+
+- **Docker**
+- **Docker Compose**
+
+## 🔄 Versionamento de Código
+
+- **Git**
+- **GitHub**
+
+## 🎯 Objetivo do Projeto
+
+Consolidar conhecimentos em **desenvolvimento full stack**, arquitetura de APIs, integração com banco de dados, uso de cache e organização de projetos modernos.
 
 ---
 
-## 🛠️ Tecnologias utilizadas
-
-- **React**  
-  Base da aplicação, utilizada para a criação de componentes reutilizáveis e uma interface interativa.
-
-- **Next.js**  
-  Framework escolhido para melhorar a performance e o SEO da aplicação, utilizando recursos como **Server-Side Rendering (SSR)** e **Static Site Generation (SSG)**.
-
-- **Tailwind CSS**  
-  Utilizado para estilização com classes utilitárias, garantindo um design responsivo, limpo e flexível.
-
-- **React Hook Form**  
-  Implementado para o gerenciamento de formulários, oferecendo validação simples e melhor performance.
-
-- **Lucide React**  
-  Biblioteca de ícones utilizada para criar uma interface mais intuitiva e visualmente agradável.
-
----
-
-## 🎯 Principais aprendizados
-
-- Estruturação de aplicações modernas com **React e Next.js**
-- Boas práticas de estilização com **Tailwind CSS**
-- Gerenciamento eficiente de formulários e validação de dados
-- Foco na experiência do usuário com um design simples e funcional
-
----
-
-Projeto desenvolvido durante a **NLW**, com foco em aprendizado prático e evolução no desenvolvimento front-end 🚀
+💡 Projeto desenvolvido para fins de estudo e evolução técnica contínua.
